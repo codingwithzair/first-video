@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#HelloTag{
+    padding: 10px;
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20%;
+    border-radius: 10px;
+    background-color: #190120;
+    color: #fff;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#design{
+    width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #190120;
+}
+
+#design input{
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+    border-bottom: 1px solid white;
+    outline: none;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#design input::placeholder{
+    color: white;
+    text-transform: capitalize;
+
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#design button{
+    padding: 10px;
+    background-color: #54036d;
+    border: none;
+    border-radius: 6px;
+    color: white;
+
+    cursor: pointer;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#design button:hover{
+    background-color: aqua;
+    color: #190120;
+}
